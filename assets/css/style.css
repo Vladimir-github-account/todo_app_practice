@@ -1,0 +1,49 @@
+body{
+}
+
+.container {
+    max-width: 400px;
+    margin:0 auto;
+    background-color: lightgreen;
+    min-height: 100vh;
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+
+#createTaskButton {
+    border: 1px solid darkslategray;
+    display: inline-block;
+    padding: 7px;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+
+#taskList {
+    margin-top: 15px    ;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid rgba(40,40,40,0.2);
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.listItem{
+    border-bottom: 1px solid gray;
+    border-radius: 1px;
+}
+
+.listItem + .listItem {
+    margin-top: 12px;
+}
