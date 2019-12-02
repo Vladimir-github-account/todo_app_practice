@@ -42,6 +42,11 @@ input{
 .listItem{
     border-bottom: 1px solid gray;
     border-radius: 1px;
+    /*word-wrap: break-word;*/
+    /*overflow-x:hidden;*/
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .listItem + .listItem {
